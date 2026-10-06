@@ -1,0 +1,181 @@
+body {
+    background-color: #1c1b1b;
+    color: #e0e0e0;
+}
+
+.card {
+    border-radius: 4px;
+}
+
+.bluebg {
+    background-color: #1b1e24;
+}
+
+.orange-bg {
+    background-color: #fd7e14;
+}
+.orangeline {
+    background-color: #fd7e14;
+}
+
+.graybg {
+    background-color: #2b2b2b;
+    color: white !important;
+}
+
+.graybg:focus {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+.camcard   {
+    background-color: #222731;
+    border-radius: 4px;
+}
+.blackbg {
+    background-color: #000000;
+}
+
+
+.camcard .table,
+.camcard .table th,
+.camcard .table td {
+  background-color: transparent;
+  color: #fff ;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.search-inpu {
+    background-color: #fff3e0;
+}
+
+.Mbtn {
+    width: 100px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+.activestatus {
+    border-radius: 12px;
+}
+
+
+.searchbtn {
+    background-color: #212529;
+    border: none;
+}
+
+.ourstory-bg {
+    background-color: rgba(33, 33, 33, 0.65);
+}
+.bluetext {
+    color: #245c94;
+}
+
+.graytext {
+    color: #9c9999;
+}
+
+.orangetext {
+    color: #fa8600;
+}
+
+.event-grid-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.darkcard {
+    background-color: #1e1e1e !important;
+    border: 1px solid #2d2d2d !important;
+}
+
+.cardimg {
+    height: 150px !important;
+    object-fit: cover;
+}
+
+.orangebt {
+    color: #fd7e14;
+    border: 1px solid #fd7e14;
+    background: transparent;
+}
+
+.orange-bt:hover {
+    background-color: #fd7e14;
+    color: #ffffff;
+}
+
+.carousel-arrow-btn {
+    width: 42px;
+    height: 42px;
+    background-color: #fd7e14;
+    border: none;
+    z-index: 10;
+}
+
+.carousel-arrow-prev {
+    left: -22px !important;
+}
+
+.carousel-arrow-next {
+    right: -22px !important;
+}
+
+.footerbg {
+    background-color: #0a0a0a;
+    border-top: 1px solid #222222;
+    margin-top: auto;
+}
+
+.orangetext {
+    color: #fd7e14;
+}
+
+.graytext {
+    color: #a0a0a0;
+}
+.badge {
+    align-self: flex-start; 
+    margin-bottom: 0.5rem; 
+    font-weight: 600;       
+}
+
+.leaderboard {
+    width: 28px;
+    height: 28px;
+}
+
+.gold {
+    background-color: rgba(255, 193, 7, 0.15);
+    border: 1px solid rgba(255, 193, 7, 0.3);
+}
+.goldlb {
+    background-color: #ffc107;
+    color: #212529; 
+}
+
+.silver {
+    background-color: rgba(173, 181, 189, 0.15);
+    border: 1px solid rgba(173, 181, 189, 0.3);
+}
+.silverboard {
+    background-color: #adb5bd;
+    color: #212529; 
+}
+
+.bronze {
+    background-color: rgba(205, 127, 50, 0.15);
+    border: 1px solid rgba(205, 127, 50, 0.3);
+}
+.bronzeboard {
+    background-color: #cd7f32;
+    color: #ffffff; 
+}

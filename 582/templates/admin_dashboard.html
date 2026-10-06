@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>admin page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bluebg">
+
+    <nav class="navbar navbar-expand-xl navbar-dark shadow-sm orange-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-white" href="index.html">🫶GiveRelay</a>
+            <button class="navbar-toggler text-white" type="button" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbardark">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-white">
+                            <i class="bi bi-person-circle"></i>Administrator</a>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-white"> admin_dashboard</a>
+                            </li></li></ul>   
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn fw-bold text-white searchbtn" type="submit">Search</button>
+                </form></div></div>
+            </nav>
+            <div class="container-fluid">
+              <div class="row min-vh-100">
+                <aside class="col-12 col-md-2 p-2">
+                      <h4 class="text-white mb-4 text-start">Admin<br>Dashboard</h4>
+                      <ul class="nav flex-column">
+                          <li><a class="nav-link text-white">Approve</a></li>
+                          <li><a class="nav-link text-white">Campaigns</a></li>
+                          <li><a class="nav-link text-white">Users</a></li>
+                          <li><a class="nav-link text-white">Reports</a></li>
+                      </ul>
+                  </aside>
+
+            <div class="vr p-0 d-none d-md-block orangeline" style="width: 3px; opacity: 1;"></div>
+            
+            <main class="col-md g-3 mb-4 px-lg-5">
+                <h2 class="text-white"> admin_dashboard</h2>
+                <div class="row g-3">
+                <div class="row row-cols-1 row-cols-sm-3 g-3 mb-4">
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body camcard">
+                          <h5 class="card-title text-white">Active Campaign</h5>
+                          <p class="card-text "><h3 class="text-white">4</h3></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body camcard">
+                            <h5 class="card-title text-white">Paused Campaign</h5>
+                            <p class="card-text "><h3 class="text-white">2</h3></p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body camcard">
+                                <h5 class="card-title text-white">Total Campaign</h5>
+                                <p class="card-text "><h3 class="text-white">6</h3></p>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="card p-3 mb-4 camcard">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold mb-2 text-light"> manage fundraising campaigns</h5>
+                      <div class="table-responsive">
+                        <table class="table align-middle mb-0">
+                            <tr>
+                              <th scope="col">Campaign Title</th>
+                              <th scope="col">Organizer</th>
+                              <th scope="col">Goal Amount</th>
+                              <th scope="col">Start Date</th>
+                              <th scope="col">End Date</th>
+                              <th scope="col" class="text-center">Action</th>
+                            </tr>
+                          <tbody>
+                            <tr>
+                              <td>Community Donut Day</td>
+                              <td>Russ</td>
+                              <td>$5,000</td>
+                              <td>2026-09-01</td>
+                              <td>2026-09-30</td>
+                              <td class="text-center text-nowrap">
+                                <button class="btn btn-sm btn-success me-1">Approve</button>
+                                <button class="btn btn-sm btn-danger">Reject</button>
+                              </td></td>
+                            </tr>
+                            <tr>
+                              <td>Local Band Charity</td>
+                              <td>Dongchan</td>
+                              <td>$10,000</td>
+                              <td>2026-09-10</td>
+                              <td>2026-10-25</td>
+                              <td class="text-center">
+                                <button class="btn btn-sm btn-success me-1">Approve</button>
+                                <button class="btn btn-sm btn-danger">Reject</button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Local Band Charity</td>
+                              <td>Stephen</td>
+                              <td>$2,000</td>
+                              <td>2026-11-15</td>
+                              <td>2026-12-15</td>
+                              <td class="text-center">
+                                <button class="btn btn-sm btn-success me-1">Approve</button>
+                                <button class="btn btn-sm btn-danger">Reject</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                <div class="card shadow-sm camcard">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold mb-2">Update Campaigns details</h5>
+                      <div class="table-responsive">
+                        <table class="table  align-middle mb-0">
+                            <tr>
+                              <th scope="col">Campaign Title</th>
+                            <th scope="col">Goal Amount</th>
+                              <th scope="col">Start Date</th>
+                              <th scope="col">End Date</th>
+                              <th scope="col">Status</th>
+                              <th scope="col" class="text-center">Actions</th>
+                            </tr>
+                          <tbody>
+                            <tr>
+                              <td>Community Donut Day</td>
+                              
+                              <td>$5,000</td>
+                              <td>2026-09-01</td>
+                              <td>2026-09-30</td>
+                              <td><div class="dropdown">
+                                <button type="button" class="btn btn-success dropdown-toggle btn-sm fw-bold" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Active
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark bg-dark">
+                                  <li><a class="dropdown-item text-success fw-bold" >Active</a></li>
+                                  <li><a class="dropdown-item text-warning fw-bold" >Pause</a></li>
+                                  <li><a class="dropdown-item text-danger fw-bold" >ended</a></li>
+                                </ul>
+                              </div></td>
+                              <td class="text-center">
+                                <button class="btn btn-sm btn-primary me-1">Edit</button>
+                                <button class="btn btn-sm btn-danger">Delete</button>
+                                <td><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="formCheckChecked" checked="">
+                                    <label class="form-check-label" for="formCheckChecked">Featured</label>
+                                  </div>
+                              </td>
+                            </tr>
+                            <tr>
+                                <td>Local Band Charity</td>
+                                  <td>$10,000</td>
+                                <td>2026-09-10</td>
+                                <td>2026-10-25</td>
+                                <td><div class="dropdown">
+                                  <button type="button" class="btn btn-success dropdown-toggle btn-sm fw-bold" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Active
+                                  </button>
+                                  <ul class="dropdown-menu dropdown-menu-dark bg-dark">
+                                    <li><a class="dropdown-item text-success fw-bold" >Active</a></li>
+                                    <li><a class="dropdown-item text-warning fw-bold" >Pause</a></li>
+                                    <li><a class="dropdown-item text-danger fw-bold" >ended</a></li>
+                                  </ul>
+                                </div></td>
+                                <td class="text-center">
+                                  <button class="btn btn-sm btn-primary me-1 ">Edit</button>
+                                  <button class="btn btn-sm btn-danger">Delete</button>
+                                  <td><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="formCheckChecked" checked="">
+                                    <label class="form-check-label" for="formCheckChecked">Featured</label>
+                                  </div>
+                              </td>
+                                </td>
+                              </tr>
+                                      </td>
+                              </tr>
+                              <tr>
+                                <td>24-Hour Online game Charity</td>
+                                  <td>$3,000</td>
+                                <td>2026-12-01</td>
+                                <td>2026-12-20</td>
+                                <td><div class="dropdown">
+                                  <button type="button" class="btn btn-warning dropdown-toggle btn-sm fw-bold" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pause
+                                  </button>
+                                  <ul class="dropdown-menu dropdown-menu-dark bg-dark">
+                                    <li><a class="dropdown-item text-success fw-bold" >Active</a></li>
+                                    <li><a class="dropdown-item text-warning fw-bold" >Pause</a></li>
+                                    <li><a class="dropdown-item text-danger fw-bold" >ended</a></li>
+                                  </ul>
+                                </div></td>
+                                <td class="text-center">
+                                  <button class="btn btn-sm btn-primary me-1">Edit</button>
+                                  <button class="btn btn-sm btn-danger">Delete</button>
+                                  <td><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="formCheckChecked" checked="">
+                                    <label class="form-check-label" for="formCheckChecked">Featured</label>
+                                  </div>
+                              </td>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Community Garden Drive</td>                    
+                                <td>$2,000</td>
+                                <td>2026-01-01</td>
+                                <td>2026-01-31</td>
+                                <td><div class="dropdown">
+                                  <button type="button" class="btn btn-danger dropdown-toggle btn-sm fw-bold" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ended
+                                  </button>
+                                  <ul class="dropdown-menu dropdown-menu-dark bg-dark">
+                                    <li><a class="dropdown-item text-success fw-bold" >Active</a></li>
+                                    <li><a class="dropdown-item text-warning fw-bold " aria-current="true">Pause</a></li>
+                                    <li><a class="dropdown-item text-danger fw-bold" >ended</a></li>
+                                  </ul>
+                                </div></td>
+                                <td class="text-center">
+                                  <button class="btn btn-sm btn-primary me-1">Edit</button>
+                                  <button class="btn btn-sm btn-danger">Delete</button>
+                                  <td><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="formCheckChecked" checked="">
+                                    <label class="form-check-label" for="formCheckChecked">Featured</label>
+                                  </div>
+                              </td>
+                                </td>
+                              </tr> 
+                          </tbody>                        
+                        </table>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow-sm camcard">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold mb-2 text-light">User Management</h5>
+                  <div class="table-responsive">
+                    <table class="table  align-middle mb-0">
+                        <tr>
+                          <th scope="col">User Name</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">Status</th>
+                          <th scope="col">ID</th>
+                          <th scope="col" class="text-center">Actions</th>
+                        </tr>
+                      <tbody>
+        
+                        <tr>
+                          <td>Russ</td>
+                          <td>Russ@gmail.com</td>
+                          <td>
+                            Pending Approval
+                            <button class="btn btn-sm btn-success ms-2">Approve</button>
+                          </td>
+                          <td>Russ123</td>
+                          <td class="text-center text-nowrap">
+                            <button class="btn btn-sm btn-primary me-1">Edit</button>
+                            <button class="btn btn-sm btn-warning me-1">suspend</button>
+                            <button class="btn btn-sm btn-outline-danger">✕</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dongchan</td>
+                          <td>DC@gmail.com</td>
+                          <td >Approved</td>
+                          <td>chan111</td>
+                          <td class="text-center">
+                            <button class="btn btn-sm btn-primary me-1">Edit</button>
+                            <button class="btn btn-sm btn-warning me-1">suspend</button>
+                            <button class="btn btn-sm btn-outline-danger">✕</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Chon</td>
+                          <td>chon@gmail.com</td>
+                          <td>ended</td>
+                          <td>chon33</td>
+                          <td class="text-center">
+                            <button class="btn btn-sm btn-primary me-1">Edit</button>
+                            <button class="btn btn-sm btn-warning me-1">suspend</button>
+                            <button class="btn btn-sm btn-outline-danger">✕</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+                  <div class="card shadow-sm camcard text-white mb-4">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="card-title fw-bold mb-0">Reported Content Management</h5>
+                  </div>
+              
+                  <div class="table-responsive">
+                    <table class="table align-middle mb-0 text-white" style="--bs-table-bg: transparent; color: #fff;">
+                      <thead>
+                        <tr style="border-bottom: 2px;">
+                          <th scope="col">ID</th>
+                          <th scope="col">Username</th>
+                          <th scope="col">Report Reason</th>
+                          <th scope="col">Reporter</th>
+                          <th scope="col">Date</th>
+                          <th scope="col"class="text-center">Report Count</th>
+                          <th scope="col" class="text-center">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>RUSS123</td>
+                          <td>Russ</td>
+                          <td>Profanity
+                          </td>
+                          <td>chan234</td>
+                          <td>2026-11-14</td>
+                          <td class="text-center">3</td>
+                          <td class="text-center text-nowrap">
+                            <button class="btn btn-sm btn-warning me-1">suspend</button>
+                            <button class="btn btn-sm btn-outline-danger">✕</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Chon33</td>
+                          <td>chon</td>
+                          <td>Inappropriate content</td>
+                          <td>chan234</td>
+                          <td>2026-06-27</td>
+                          <td class="text-center">5</td>
+                          <td class="text-center text-nowrap">
+                            <button class="btn btn-sm btn-warning me-1">suspend</button>
+                            <button class="btn btn-sm btn-outline-danger">✕</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                </div>
+                </div>
+              </div>
+                </main>
+
+                <footer class="w-100 py-4 footerbg" data-bs-theme="dark">
+                  <div class="container text-center">
+                      <h5 class="fw-bold orangetext">GiveRelay</h5>
+                      <p class="text-body-secondary small">IFN582_26se2 Rapid Web Development with Databases</p>
+                      <div class="small">
+                          <span class="fw-bold orangetext">Name:</span>
+                          <span class="text-light me-3">Dongchan Chon</span>
+                          <span class="fw-bold orangetext">Major:</span>
+                          <span class="text-light me-3">Major of Information Technology</span>
+                          <span class="fw-bold orangetext">Email:</span>
+                          <span class="text-light">m12617245@qut.edu.au</span>
+                      </div>
+                      <div class="mt-3">
+                        <i class="bi bi-youtube fs-4 text-light me-3"></i>
+                        <i class="bi bi-instagram fs-4 text-light"></i>
+                    </div>
+                  </div>
+              </footer>
+
+        </div>
+    </div>
+    
+</body>
+</html>
